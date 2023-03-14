@@ -262,14 +262,14 @@ body {
     display: flex;
 }
 
+.section-list {
+    padding-top: 96px;
+    padding-bottom: 120px;
+ }
+
 .featyre-lists {
     text-align: center;
     color: var(--primary-text-color);
- }
-
- .section-list {
-    padding-top: 96px;
-    padding-bottom: 120px;
  }
  
 .featyre-section {
@@ -279,8 +279,13 @@ body {
 }
 
 .featyre-text-title {
+    width: 264px;
     text-align: left;
     color: var(--primary-text-color);
+}
+
+.featyre-text {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .featyre {
