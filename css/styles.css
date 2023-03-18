@@ -262,7 +262,6 @@ body {
 
 .section-but:hover,
 .section-but:focus {
-    border: 1px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -434,26 +433,28 @@ body {
 
 .gustomers-list-next {
     display: flex;
-   
     justify-content: center;
     align-items: center;
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    fill: #AFB1B8;
 }
 
-.gustomers-list-use {
-    fill: #8E8F99;
-}
 
-.gustomers-list-use:hover,
-.gustomers-list-use:focus {
+.gustomers-list-next:hover .gustomers-list-use {
+    
     fill: #404BBF;
 }
 
-.gustomers-list-next:hover,
-.gustomers-list-next:focus {
+.gustomers-list-next:focus .gustomers-list-use {
+    
+    fill: #404BBF;
+}
+
+.gustomers-list-top:hover,
+.gustomers-list-top:focus {
     border: 1px solid #404BBF;
     border-radius: 4px;
 }
