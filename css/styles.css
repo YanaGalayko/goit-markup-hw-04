@@ -260,11 +260,6 @@ body {
     text-align: left;
 }   
 
-.section-but:hover,
-.section-but:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 .section-cards {
     border-left: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
@@ -318,6 +313,11 @@ body {
 
 .cards-text {
     text-align: left;
+}
+
+.cards:hover,
+.cards:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* button */
@@ -377,6 +377,7 @@ body {
     background-color: var(--button-bcg-color);
     color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid #404BBF;
 
 }
 
@@ -453,8 +454,8 @@ body {
     fill: #404BBF;
 }
 
-.gustomers-list-top:hover,
-.gustomers-list-top:focus {
+.gustomers-list-next:hover,
+.gustomers-list-next:focus {
     border: 1px solid #404BBF;
     border-radius: 4px;
 }
